@@ -1,0 +1,14 @@
+## README Part 2
+
+By: Ralph H
+
+Date: 11/6/15
+
+##
+Four R files are included in this repository.  Each is a self-contained program, which generates the graphics file of the same name.  Each one uses the setwd() function to read the data file from the working directory, and writes its PNG file to the same directory.
+
+To run a program, simply source() it in R in the usual manner.
+
+The input for each file is the "household_power_consumption.txt" data file, which must be in the working directory.
+
+The output for each file is a PNG file with the same name as the R file.  Each PNG file contains the required plot.
