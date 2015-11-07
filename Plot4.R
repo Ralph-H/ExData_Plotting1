@@ -5,7 +5,7 @@
 #                                                                              #
 # Purpose: Coursera Exploratory Data Analysis Project 1, file 1                #
 # Input file: exdata-data-household_power_consumption.txt                      #
-# Output file: Plot3.png, Sub_metering_x line plot, for x = 1, 2, & 3          #
+# Output file: Plot4.png, four plots on a 2 x 2 array                          #
 ################################################################################
 
 setwd("~/R/coursera/eda/project1/exdata-data-household_power_consumption/")
