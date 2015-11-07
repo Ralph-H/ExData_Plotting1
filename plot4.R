@@ -3,7 +3,7 @@
 # Author: Ralph Hurtado                                                        #
 # Last modified: 11/04/15                                                      #
 #                                                                              #
-# Purpose: Coursera Exploratory Data Analysis Project 1, file 1                #
+# Purpose: Coursera Exploratory Data Analysis Project 1, program 4             #
 # Input file: exdata-data-household_power_consumption.txt                      #
 # Output file: Plot4.png, four plots on a 2 x 2 array                          #
 ################################################################################
@@ -29,7 +29,7 @@ names(p4data) <- c("Date", "Time", "gap", "grp", "v", "gi", "sm1",
                    "sm2", "sm3")
 
 # Open png device
-png("Plot4.png", width = 480, height = 480)
+png("plot4.png", width = 480, height = 480)
 # Set for 2 x 2 array of plots
 par(mfrow = c(2, 2))
 
