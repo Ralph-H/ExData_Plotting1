@@ -32,7 +32,7 @@ names(p2data) <- c("Date", "Time", "Global_active_power", "4", "5", "6", "7",
 bound <- 60 * 48
 
 # Generate plot
-plot(p2data[1:bound, 3], type = "l", ylab = "Global Active Power (kw)", xaxt = "n")
+plot(p2data[1:bound, 3], type = "l", xlab = "", ylab = "Global Active Power (kw)", xaxt = "n")
 axis(side = 1, at = c(1, (length(p2data$Date)/2), length(p2data$Date)), 
      labels = c("Thu", "Fri", "Sat"))
 

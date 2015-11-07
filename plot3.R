@@ -31,7 +31,7 @@ names(p3data) <- c("Date", "Time", "Global_active_power", "4", "5", "6", "sm1",
 # Open graphics device
 png("plot3.png", width = 480, height = 480)
 # Generate plot
-plot(p3data$sm1, type = "l", ylab = "Energy sub metering", xaxt = "n")
+plot(p3data$sm1, type = "l", xlab = "", ylab = "Energy sub metering", xaxt = "n")
 lines(p3data$sm2, col = "red")
 lines(p3data$sm3, col = "blue")
 
