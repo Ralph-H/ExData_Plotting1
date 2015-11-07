@@ -13,7 +13,7 @@ setwd("~/R/coursera/eda/project1/exdata-data-household_power_consumption/")
 # Set dates and times - the first date and time were found by reading
 # in and inspecting the first 10 rows at the command line
 firstDateTime <- strptime("2006-12-16 17:24:00", "%Y-%m-%d %H:%M:%S")
-beginDateTime <- strptime("2007-02-01 00:01:00", "%Y-%m-%d %H:%M:%S")
+beginDateTime <- strptime("2007-02-01 00:00:00", "%Y-%m-%d %H:%M:%S")
 
 # Calculate which rows to read in
 begin <- beginDateTime - firstDateTime
